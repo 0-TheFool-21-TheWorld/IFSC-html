@@ -1,0 +1,38 @@
+form {
+    width: 300px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+button {
+    width: 100%; /* Ocupa toda a largura */
+    padding: 10px; /* Espaçamento interno */
+    background-color: green; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Cantos arredondados */
+    transition: 0.3;
+    margin-bottom: 8px;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.3;
+}

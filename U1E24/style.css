@@ -40,14 +40,22 @@ h1 {
     border-radius: 5px;
     text-align: center;
     transition: 0.3s;
+    box-shadow: 3px 10px 6px rgba(0, 0, 0, 0.1);
 }
 
 .botoes *:hover {
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .botoes *:active {
+    transform: translateY(-1vw);
     opacity: 0.3;
+    cursor: pointer;
 }
 
 html { scroll-behavior: smooth; }
+
+.botoes:visited {
+    color: red;
+}
