@@ -1,0 +1,23 @@
+h1,
+h2 {
+    color:rgb(218, 174, 29)
+}
+
+* {
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+div {
+    margin-left: 40px;
+}
+
+.documento {
+    background-color: rgb(245, 242, 242)
+    
+}

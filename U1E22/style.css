@@ -1,0 +1,39 @@
+h1 {
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: deeppink;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.um {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dois {
+    color: red;
+    font-family: fantasy;
+}
+
+.tres {
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quatro {
+    color:bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cinco {
+    color: yellow;
+    font-family: monospace;
+}
+
+.seis {
+    color: darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
