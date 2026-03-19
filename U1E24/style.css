@@ -1,0 +1,53 @@
+.principal {
+    width: 40vw;
+    margin-left: 30vw;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3vw;
+}
+
+.botoes {
+    position: fixed;
+    display: block;
+}
+
+#inicio,
+#int,
+#sobre,
+#contato,
+#creditos {
+    margin-bottom: 1.4vw;
+}
+
+.fim {
+    margin-bottom: 8vw;
+}
+
+.botoes * {
+    margin-top: 1vw;
+    margin-left: 1vw;
+    background-color: rgb(44, 44, 46);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.botoes *:hover {
+    opacity: 0.7;
+}
+
+.botoes *:active {
+    opacity: 0.3;
+}
+
+html { scroll-behavior: smooth; }
