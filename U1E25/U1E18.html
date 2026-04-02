@@ -9,7 +9,7 @@
 <body>
     <h1>Cadastro de estudantes para o JIFSC</h1>
     <form action="#">
-        <div style="margin-bottom: 10px;">
+        <div">
             <label for="nome">Nome:</label>
             <input
                 type="text"
@@ -36,6 +36,7 @@
         <div>
             <label for="data">Data de nascimento:</label>
             <input
+    
                 type="date"
                 id="data"
                 name="data"
@@ -73,26 +74,28 @@
             >
         </div>
 
-        <div>
-             <label>Modalidade: <input 
+        <div class="radio">
+             <label>Individual<input 
+                class="a"
                 type="radio" 
                 name="Modalidade" 
                 value="Individual"
                 required
                 checked
-                >Individual</label>
+                ></label>
 
-            <label><input 
+            <label>Coletiva<input
+                class="a"
                 type="radio" 
                 name="Modalidade" 
                 value="Coletiva"
                 required
-                >Individual</label>
+                ></label>
         </div>
 
         <div class="button">
             <button type="submit">Cadastrar</button>
-            <button type="reset">Limpar</button>
+            <button class="limpar" type="reset">Limpar</button>
         </div>
     </form>
 </body>

@@ -1,0 +1,102 @@
+form {
+    width: 700px;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(44, 44, 44);
+    box-sizing: border-box;
+    background-color: rgb(44, 44, 44);;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#data {
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+  opacity: 0.5;
+  color: rgb(224, 224, 224);
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(216, 24, 24);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3;
+    margin-bottom: 8px;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+
+.limpar {
+    background-color: red;
+}
+
+button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 0 5px 5px rgb(255, 0, 0);  
+}
+
+
+.radio {
+    margin-left: 60px;
+    margin-right: 40px;
+    width: 13px;
+    border-radius: 20px;
+}
+
+textarea {
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.tipo {
+    margin-bottom: 20px;
+}  
+
+select {
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bolder;
+    background-color: rgb(216, 24, 24);
+    color: white;
+    border: none;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+select:hover {
+    opacity: 1;
+}
+
+select:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}

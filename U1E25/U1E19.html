@@ -9,8 +9,9 @@
 <body>
     <form action="#">
         <div style="margin-bottom: 10px;">
-            <label for="nome">nome Completo:</label>
+            <label for="nome">Nome Completo:</label>
             <input
+                placeholder="Nome completo"
                 type="text"
                 id="nome"
                 name="nome"
@@ -23,6 +24,7 @@
         <div style="margin-bottom: 10px;">
             <label for="nome">Login:</label>
             <input
+                placeholder="Login"
                 type="text"
                 id="login"
                 name="login"
@@ -35,6 +37,7 @@
         <div style="margin-bottom: 10px;">
             <label for="nome">Senha:</label>
             <input
+                placeholder="Senha"
                 type="password"
                 id="sen"
                 name="sen"
@@ -62,37 +65,43 @@
             </select>
         </div>
 
-        <div>
-             <label>Tipo: <input 
+        <p>Tipo:</p>
+        <div class="tipo">
+             <label>Estudante<input 
                 type="radio" 
                 name="tipo" 
                 value="est"
                 required
                 checked
-                >Estudante</label>
+                class="radio"
+                ></label>
 
-            <label><input 
+            <label>Professor<input 
                 type="radio" 
                 name="tipo" 
                 value="prof"
                 required
-                >Professor</label>
-            <label><input 
+                class="radio"
+                ></label>
+            <label>Técnico-Adminstrativo<input 
                 type="radio" 
                 name="tipo" 
                 value="tecadm"
+                radio="radio"
+                class="radio"
                 required
-                >Técnico-Adminstrativo</label>
+                ></label>
         </div>
 
         <div>
-            <label for="obs">Observações:</label>
-            <textarea id="obs" name="obs" cols="30" rows="5"></textarea>
+            <label for="obs" class="obs">Observações:</label>
+            <textarea id="obs" name="obs" cols="30" rows="5" placeholder="Observações"></textarea>
         </div>
 
-         <label>Módulos:</label>
+        <p>Módulos:</p>
             <input 
-            type="checkbox" 
+            type="checkbox"
+            class="radio"
             id="ensino" 
             name="Ensino" 
             value="ensino">
@@ -102,12 +111,14 @@
             type="checkbox" 
             id="pesquisa" 
             name="Pesquisa" 
+            class="radio"
             value="pesquisa"><label>Pesquisa</label>
 
-            <input 
+            <input
             type="checkbox" 
             id="extensao" 
             name="Extensao" 
+            class="radio"
             value="extensao"><label>Extensão</label>
 
         <div class="button">
